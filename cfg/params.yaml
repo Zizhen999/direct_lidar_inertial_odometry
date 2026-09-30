@@ -12,7 +12,8 @@
 
 /**:
   ros__parameters:
-    use_sim_time: true
+    # use_sim_time: true
+    use_sim_time: false    # a tester de changer ce paramètre
     frames/odom: odom
     frames/baselink: base_link
     frames/lidar: lidar
@@ -25,7 +26,7 @@
     odom/gravity: 9.80665
     odom/computeTimeOffset: true
 
-    odom/imu/approximateGravity: false
+    odom/imu/approximateGravity: false # a tester de changer ce paramètre
     odom/imu/calibration/gyro: true
     odom/imu/calibration/accel: true
     odom/imu/calibration/time: 3.0

@@ -9,6 +9,9 @@
  * Contact: {kennyjchen, ryguyn, btlopez}@ucla.edu         *
  *                                                         *
  ***********************************************************/
+/**
+ * @file src/dlio/odom.cc
+ */
 
 #include "dlio/odom.h"
 #include "dlio/utils.h"

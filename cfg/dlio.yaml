@@ -27,11 +27,13 @@
                                  0.,  0.,  1. ]
     imu/intrinsics/gyro/bias: [ 0.0, 0.0, 0.0 ]
 
-    extrinsics/baselink2imu/t: [ 0.006253, -0.011775, 0.007645 ] 
-    extrinsics/baselink2imu/R: [ 1.,  0.,  0.,
-                                 0.,  1.,  0.,
-                                 0.,  0.,  1. ]
-    extrinsics/baselink2lidar/t: [ 0.,  0.,  0. ]
-    extrinsics/baselink2lidar/R: [ 1.,  0.,  0.,
-                                   0.,  1.,  0.,
-                                   0.,  0.,  1. ]
+
+    extrinsics/baselink2imu/t: [ -0.1717, -0.0233, 0.1317 ]    # wzz modified  # unite : meter  (expressed sous repere de centre de gravité ?? )
+    extrinsics/baselink2imu/R: [-0.9659258,  0.0,  0.2588190,
+                                 0.0,       -1.0,  0.0,
+                                 0.2588190,  0.0,  0.9659258 ]  # wzz modified
+
+    extrinsics/baselink2lidar/t: [-0.1497,  0.,  0.17149 ]      # wzz modified   # unite : meter  (expressed sous repere de centre de gravité ?? )  # baselink : centre de gravité
+    extrinsics/baselink2lidar/R: [-0.9659258,  0.0,  0.2588190,
+                                   0.0,       -1.0,  0.0,
+                                   0.2588190,  0.0,  0.9659258 ]   # wzz modified

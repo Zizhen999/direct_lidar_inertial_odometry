@@ -20,8 +20,10 @@ def generate_launch_description():
 
     # Set default arguments
     rviz = LaunchConfiguration('rviz', default='false')
-    pointcloud_topic = LaunchConfiguration('pointcloud_topic', default='points_raw')
-    imu_topic = LaunchConfiguration('imu_topic', default='imu_raw')
+    # pointcloud_topic = LaunchConfiguration('pointcloud_topic', default='points_raw')
+    pointcloud_topic = LaunchConfiguration('pointcloud_topic', default='/livox/lidar_192_168_1_3')   # wzz modified : default topic name is modified
+    # imu_topic = LaunchConfiguration('imu_topic', default='imu_raw')
+    imu_topic = LaunchConfiguration('imu_topic', default='/livox/imu_192_168_1_3')   # wzz modified : default topic name is modified
 
     # Define arguments
     declare_rviz_arg = DeclareLaunchArgument(
